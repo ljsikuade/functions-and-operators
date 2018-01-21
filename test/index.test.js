@@ -26,7 +26,7 @@ test('Multiply', () => {
 test('Average', () => {
   const result = average( 2.2, 1.68, 1.76, 1.54, 2 );
 
-  expect( Number( result ).toFixed( 3 ) ).toEqual( 1.836 );
+  expect( parseFloat( Number( result ).toFixed( 3 ) ) ).toEqual( 1.836 );
 });
 
 test('Remainder', () => {
@@ -36,7 +36,7 @@ test('Remainder', () => {
 });
 
 test('Exponential', () => {
-  const result = exponential( 4, 7 );
+  const result = exponential( 7, 4 );
 
   expect( result ).toEqual( 2401 );
 });
@@ -57,7 +57,7 @@ test('Strict equal ', () => {
   expect( result2 ).toEqual( true );
 
   const result3 = strictEqual( true, true, 5 );
-  expect( result4 ).toEqual( false );
+  expect( result3 ).toEqual( false );
 
   const result4 = strictEqual( 10, 'hello', 'hello' );
   expect( result4 ).toEqual( false );
@@ -65,7 +65,7 @@ test('Strict equal ', () => {
 
 test('Smaller', () => {
   const result1 = smaller( 7, 7 );
-  expect( result1 ).toEqual( true );v
+  expect( result1 ).toEqual( true );
 
   const result2 = smaller( -7, 7 );
   expect( result2 ).toEqual( true );
@@ -86,7 +86,7 @@ test('Is divisible by', () => {
   expect( result3 ).toEqual( true );
 
   const result4 = isDivisibleBy( 4, 7, 32 );
-  expect( result4 ).toEqual( false );
+  expect( result4 ).toEqual( true );
 });
 
 test('Evens', () => {
@@ -100,5 +100,5 @@ test('Evens', () => {
   expect( result3 ).toEqual( true );
 
   const result4 = evens( 10, 10, 10, 11 );
-  expect( result4 ).toEqual( true );
+  expect( result4 ).toEqual( false );
 });
