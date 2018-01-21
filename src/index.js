@@ -13,7 +13,8 @@ function average(){
 }
 
 function remainder(){
-  // this function is passed 2 arguments return the remainder of first
+  // this function is passed 2 arguments
+  // return the remainder of first
   // argument when divided by the second
 }
 
@@ -34,7 +35,8 @@ function strictEqual(){
 }
 
 function smaller(){
-  // this function is passed 2 arguments. Return true if second argument is
+  // this function is passed 2 arguments
+  // return true if second argument is
   // greater than or equal to first, otherwise return string 'smaller'
 }
 
@@ -44,8 +46,8 @@ function isDivisibleBy(divider1, divider2, number){
 }
 
 function evens(){
-  // this function is passed 4 numbers. return true
-  // if all numbers are even or false otherwise
+  // this function is passed 4 numbers
+  // return true if all numbers are even or false otherwise
   // do not use if/else or ternary
 }
 
