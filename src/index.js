@@ -125,6 +125,33 @@ function averages( things ) {
   // be sure to exclude the strings
 }
 
+function sortingStrings(strings){
+  // things is an array of sortingStrings
+  // sort them in alphabetical order and return the sorted array
+}
+
+function sortingNumbers(numbers){
+  // things is an array of sortingStrings
+  // sort them in ascending order and return the sorted array
+}
+
+function sortingNumbersDescending(numbers){
+  // things is an array of sortingStrings
+  // sort them in descending order and return the sorted array
+}
+
+function sortingCars(cars){
+  // a car object has a make, model, year. For example
+  // const car = {
+  //   make: 'Ford',
+  //   model: 'Fiesta',
+  //   year: 1994
+  // }
+  //
+  // cars is an array of car objects. Sort them ascending by year and return
+  // the sorted array.
+}
+
 function paintShop( cars, colour ){
   // cars is an array of objects that have
   // their properties are `make`, `model` and `colour`
@@ -228,6 +255,10 @@ module.exports = {
   findLargest,
   addAllnumbers,
   averages,
+  sortingStrings,
+  sortingNumbers,
+  sortingNumbersDescending,
+  sortingCars,
   paintShop,
   secondLargest,
   addSales,
