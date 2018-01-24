@@ -152,6 +152,17 @@ function sortingCars(cars){
   // the sorted array.
 }
 
+function deleteColour( car ){
+  // car is an object with properties make, model and color. For example
+  // {
+  //   make: 'Ford',
+  //   model: 'Fiesta',
+  //   color: 'red'
+  // }
+
+  // delete the property colour and return car without this property
+};
+
 function paintShop( cars, colour ){
   // cars is an array of objects that have
   // their properties are `make`, `model` and `colour`
@@ -259,6 +270,7 @@ module.exports = {
   sortingNumbers,
   sortingNumbersDescending,
   sortingCars,
+  deleteColour,
   paintShop,
   secondLargest,
   addSales,

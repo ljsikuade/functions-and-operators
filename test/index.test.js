@@ -24,6 +24,7 @@ const {
   sortingNumbers,
   sortingNumbersDescending,
   sortingCars,
+  deleteColour,
   paintShop,
   secondLargest,
   addSales,
@@ -311,7 +312,21 @@ test('Sorting cars', () => {
   expect( output ).toEqual( expected );
 });
 
+test('Delete colour', () => {
+  const car = {
+    make: 'Ford',
+    model: 'Mondeo',
+    color: 'gold'
+  };
+  const expected = {
+    make: 'Ford',
+    model: 'Mondeo',
+  };
 
+  const output = deleteColour(car);
+
+  expect( output ).toEqual( expected );
+});
 
 test('Paint shop', () => {
   const cars = [
