@@ -11,5 +11,5 @@ Exercises can be debugged in browser by opening `index.html`.
 
 To run tests locally, make sure you have `node` and `npm` installed. You can install it from [https://nodejs.org/en/](https://nodejs.org/en/)
 
-1. Run `npm install` - you only need to run this once to fetch the external libraries used for testing
+1. Run `npm install` - you only need to run this once after cloning to fetch the external libraries used for testing
 2. Run `npm test` - this will run the actual tests
