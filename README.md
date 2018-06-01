@@ -19,7 +19,7 @@ The tests are located in `test/index.test.js`. To run a test for only single fun
 
 for example change
 ```
-test.only('Add', () => {
+test('Add', () => {
   const result = add( 2, 3 );
 
   expect( result ).toEqual( 5 );
