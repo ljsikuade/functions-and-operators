@@ -4,7 +4,7 @@ Functions and operators exercises. To run
 
 1. Fork repo
 2. Clone forked repo to local machine
-4. Solve the exercises one at a time and do a git commit and push after each one
+4. Implement the functions in `src/index.js` one at a time and do a git commit and push after each one
 5. Aim to use the right array method where possible instead of for/while loops
 6. Submit a `Pull Request` after first push this will run tests on the server and let you know if the tests are passing.
 
