@@ -4,7 +4,7 @@ function add(a, b){
 }
 
 function multiply(){
-  // this function is passed 4 paramers
+  // this function is passed 4 parameters
   // multiply them and return the result
 }
 
@@ -75,7 +75,11 @@ function mapper( myArray ){
 function wordLengths( words ){
   // words is an array of strings
   // return a new array that contains the number of letters in each word
-  // hint: strings have a 'length' property
+  // for example
+  // input:
+  // [ 'jupiter', 'mars', 'saturn' ]
+  // output:
+  // [ 7, 4, 6]
 }
 
 function cities( capitals, formatter ){
@@ -85,28 +89,27 @@ function cities( capitals, formatter ){
   //   city: 'Paris',
   //   country: 'France'
   // }
-  // formatter is a function that transforms a capital object into a sentence returns it
-  // such as 'Paris is the capital of France'
-
-  // apply formatter to each object in capitals array and return an array of resulting sentences
+  // formatter is a callback function provided for you which
+  // transforms a capital object into a sentence returns it such as
+  // 'Paris is the capital of France'.
+  // Apply formatter to each object in capitals array and
+  // return an array of resulting sentences
 }
 
 function largerThanTen( numbers ){
   // numbers is an array of numbers
-  // return a new array that contains only numbers from the input array which are greater than 10
-  // hint: filter
+  // return a new array that contains only numbers
+  // from the input array which are greater than 10
 }
 
 function even( numbers ){
   // numbers is an array of numbers
   // return a new array that contains only even numbers from the input array
-  // hint: you may want to use the modulus operator '%'
 }
 
 function findTheNeedle( words ){
   // words is an array of words
   // return the index of the word 'needle'
-  // hint: indexOf
 }
 
 function findLargest( numbers ){
@@ -126,7 +129,7 @@ function averages( things ) {
 }
 
 function sortingStrings(strings){
-  // things is an array of sortingStrings
+  // strings is an array of strings
   // sort them in alphabetical order and return the sorted array
 }
 
@@ -189,25 +192,30 @@ function secondLargest( numbers ){
 
 function addSales( city, sales ){
   // Argument city is a string containing city name
-  // Argument sales is a integer containing
+  // Argument sales is a integer containing the sales
+  // for that location
+
   // We have object containing sales
-  //
-  // If city already exists in object add sales figure
+  const globalSales = {
+    london: 200,
+    paris: 300,
+    berlin: 150,
+    madrid: 400
+  };
+
+  // If city already exists in object, add sales figure
   // to its total. If city does not exist, create a new
   // property and save the sales figure as its value.
-  //
-  // const globalSales = {
-  //   london: 200,
-  //   paris: 300,
-  //   berlin: 150,
-  //   madrid: 400
-  // };
+
+  // return the updated globalSales object
 }
 
 function totalSales( sales ){
   // You are passed a sales object similar to the one
   // in the previous exercise. Add up all the sales figures
   // and return the total.
+
+  // Hint: look up how to get the values of an object
 }
 
 function walletSum( wallet ){
@@ -223,17 +231,22 @@ function walletSum( wallet ){
   //
   // calculate the sum of money in the wallet and return
   // the total.
+
+  // the denominations used in this exercise are 5, 10 and 20
 }
 
 function walletMerge( wallet1, wallet2 ){
   // return a new wallet object containing the contents of
   // both wallets passed in.
+
+  // the denominations used in this exercise are 5, 10 and 20
 }
 
 function arrayOfWallets( wallets ){
   // wallets is an array of wallets
 
   // Return a new wallet object containing the notes from all wallets
+  // the denominations used in this exercise are 5, 10 and 20
 }
 
 function crazyMoney( wallets ){
@@ -242,6 +255,10 @@ function crazyMoney( wallets ){
   // can have notes of any denomination. Implement a function
   // which accepts an array of random sized notes and
   // calculate the total amount of money in them.
+
+  // Hint: look up how to get keys of objects. You may also need
+  // to use square bracket notation to look up values which
+  // correspond to those keys
 }
 
 module.exports = {
