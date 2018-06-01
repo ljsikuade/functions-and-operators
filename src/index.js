@@ -134,12 +134,12 @@ function sortingStrings(strings){
 }
 
 function sortingNumbers(numbers){
-  // things is an array of sortingStrings
+  // numbers is an array of numbers
   // sort them in ascending order and return the sorted array
 }
 
 function sortingNumbersDescending(numbers){
-  // things is an array of sortingStrings
+  // numbers is an array of numbers
   // sort them in descending order and return the sorted array
 }
 
