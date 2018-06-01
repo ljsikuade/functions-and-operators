@@ -17,7 +17,16 @@ To run tests locally, make sure you have `node` and `npm` installed. You can ins
 
 The tests are located in `test/index.test.js`. To run a test for only single function, you can change the test function name from `test` to `test.only`. This will limit the amount of output you receive from each test run and make it easier to focus on the function you are working on.
 
-for example
+for example change
+```
+test.only('Add', () => {
+  const result = add( 2, 3 );
+
+  expect( result ).toEqual( 5 );
+});
+```
+
+to
 
 ```
 test.only('Add', () => {
