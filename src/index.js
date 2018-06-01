@@ -174,7 +174,7 @@ function paintShop( cars, colour ){
   // {
   //   make: 'Ford',
   //   model: 'Fiesta',
-  //   color: 'red'
+  //   colour: 'red'
   // }
 
   // set the colour of each Ford car to be the colour
