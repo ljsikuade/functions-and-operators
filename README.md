@@ -1,14 +1,14 @@
 # functions-and-operators
 
-Functions and operators exercises. To run
+## Instructions
 
 1. Fork repo
 2. Clone forked repo to local machine
 3. Run `npm install` from project folder on your machine after cloning to download external dependencies from `npm`. You only need to run this once after cloning.
-3. We have 3 sets of exercises in `src/fundamentals.js`, `src/operators.js` and `src/data-types.js`.
-4. Each set of exercises has automated tests in `test/fundamentals.test.js`, `test/operators.test.js` and `test/data-types.test.js`. Feel free to take a look in the test files for possible inputs and expected outputs.
-5. Work in pairs to implement the functions in each of the exercise files after the corresponding class. Take turns in implementing functions.
-6. Run `npm test` from project folder to check if your answer is correct.
+3. The exercise questions are in `src/fundamentals.js`.
+4. The exercises have automated tests in `test/fundamentals.test.js`. Feel free to take a look in the test file for possible inputs and expected outputs.
+5. Work in pairs to implement the functions in `src/fundamentals.js`. Take turns in implementing functions.
+6. Run `npm test` using command line from project folder to check if your answer is correct.
 7. Commit your code after each exercise and push your changes to Github. Create a Pull Request after first push.
 
 To run a test for only single function, you can change the test function name from `test` to `test.only` in the test file. This will limit the amount of output you receive from each test run and make it easier to focus on the function you are working on.
