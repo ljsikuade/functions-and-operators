@@ -20,7 +20,7 @@ function remainder(number, divisor){
 }
 
 // Rewrite function as arrow function
-function exponential(){
+function exponential(number, exponent){
   // this function is passed 2 arguments
   // return first argument to the power of second argument
   // hint: you may need to look up the exponention operator
@@ -53,7 +53,9 @@ function dateFormat(date){
   // in the format yyyy-mm-dd
 
   // return date in format d mmmm yyyy
-  // for example '03-11-2018' becomes '3 September 2018'
+  // for example '03-11-2018' becomes '3 November 2018'
+
+  // hint: you may want to use the string method `split`.
 }
 
 // Rewrite function as arrow function

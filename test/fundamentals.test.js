@@ -90,6 +90,18 @@ test('smaller - 3', () => {
   expect( result ).toEqual( false );
 });
 
+test('circumference - 1', () => {
+  const result = circumference( 5 );
+
+  expect( result ).toEqual( '15.708' );
+});
+
+test('circumference - 2', () => {
+  const result = circumference( 11 );
+
+  expect( result ).toEqual( '34.558' );
+});
+
 test('countOnes - 1', () => {
   const result = countOnes( '101' );
 
@@ -105,7 +117,7 @@ test('countOnes - 2', () => {
 test('dateFormat - 1', () => {
   const result = dateFormat( '03-11-2018' );
 
-  expect( result ).toEqual( '3 September 2018' );
+  expect( result ).toEqual( '3 November 2018' );
 });
 
 test('dateFormat - 2', () => {
