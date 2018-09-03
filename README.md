@@ -1,4 +1,4 @@
-# functions-and-operators
+# JS fundamentals exercises
 
 ## Instructions
 
